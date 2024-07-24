@@ -12,3 +12,26 @@ export async function createTable() {
     )
   `)
 }
+
+export async function insertUser(user) {
+  console.log('Inserting user:', user) // Adicione este log
+
+  if (
+    !user ||
+    !user.name ||
+    !user.email ||
+    !user.password_hash ||
+    user.admin === undefined
+  ) {
+    throw new Error('Invalid user data')
+  }
+
+  const db = await openDb()
+  await db.run(
+    `
+    INSERT INTO Users (name, email, password_hash, admin)
+    VALUES (?, ?, ?, ?)
+  `,
+    [user.name, user.email, user.password_hash, user.admin]
+  )
+}

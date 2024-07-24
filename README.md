@@ -30,4 +30,5 @@ Este projeto tem como objetivo desenvolver uma API RESTful para gerenciamento de
 
 ## Etapas do Desenvolvimento:
 
-- Para iniciar o projeto, faremos um planejamento da aplicação no excalidraw (24/06)
+- Para iniciar o projeto, fiz um planejamento da aplicação no excalidraw;
+- Criei a tabela de Users para cadastro de usuários;

@@ -1,9 +1,12 @@
-//import { openDb } from './configDB.js'
 import express from 'express'
 import { createTable } from './Controllers/User.js'
 import routes from './routes.js'
 
-createTable()
+// Função assíncrona para criar a tabela no início
+;(async () => {
+  await createTable()
+})()
+
 class App {
   constructor() {
     this.app = express()
@@ -19,4 +22,5 @@ class App {
     this.app.use(routes)
   }
 }
+
 export default new App().app
