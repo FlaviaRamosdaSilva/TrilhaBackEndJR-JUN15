@@ -1,7 +1,8 @@
 ![Código Certo Coders](https://utfs.io/f/3b2340e8-5523-4aca-a549-0688fd07450e-j4edu.jfif)
 
 # 📚 Trilha Inicial BackEnd Jr
-Este projeto tem como objetivo desenvolver uma API RESTful para gerenciamento de tarefas, proporcionando funcionalidades de CRUD (Create, Read, Update, Delete) de tarefas, autenticação de usuários e armazenamento dos dados em um banco de dados.
+Este projeto tem como objetivo desenvolver uma API RESTful para gerenciamento de tarefas, proporcionando funcionalidades de CRUD (Create, Read, Update, Delete) de tarefas,
+autenticação de usuários e armazenamento dos dados em um banco de dados.
 
 ## Objetivos:
 - Criar uma API que permita CRUD (Create, Read, Update, Delete) de tarefas.
